@@ -1,7 +1,7 @@
 import React from "react";
 class SearchBar extends React.Component {
   //initialize the state object
-
+  //Is state only on this one component? Or is state available throughout the whole app? DOes the whole app have access to the "term" state property/object?
   state = { term: "" };
 
   onInputChange = (event) => {
@@ -15,7 +15,6 @@ class SearchBar extends React.Component {
     //stops the form from being submitted prematurely when hitting Enter
     event.preventDefault();
     console.log("This is within the child component submitting");
-
     //TODO Make sure we call c
     //callback from parent component
     console.log("We are right above sending it to the TUrkey parent!");
