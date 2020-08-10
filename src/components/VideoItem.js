@@ -3,7 +3,7 @@ import React from "react";
 import { List, Image } from "semantic-ui-react";
 
 const VideoItem = ({ movingPictures, popeye: oliveOil }) => {
-  console.log("below is props.video");
+  //console.log("below is props.video");
 
   return (
     //We are making sure we are destructuring the onVideoSelect by keeping the same name through everything. Also, we are for sure passing in the video into this function by organizing it like this!
