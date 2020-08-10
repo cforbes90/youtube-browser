@@ -1,7 +1,7 @@
 import React from "react";
 
 const VideoDetail = ({ video }) => {
-  console.log("this is video object from videoDetail", video);
+  // console.log("this is video object from videoDetail", video);
   //Conditional rendering!
   if (!video) {
     return <div>Loading...</div>;
